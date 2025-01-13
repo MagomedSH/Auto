@@ -5,16 +5,21 @@ $hover-red: #CC2525
 * 
     border: 1px solid blue
 
+* 
+    box-sizing: border-box
+
 
 header
     border: solid red
     background-image: url(../img/unsplash_V37iTrYZz2E.png)
+    background-image: height 100vh: 
     border: 1px solid white
-    height: 800px
-    width: 1440px
+    height: 80vh
+    width: 100vh
     background-repeat: no-repeat
     background-position: center
     z-index: +1
+    
 
 
 nav
@@ -77,6 +82,7 @@ li:last-child
     display: flex
     display: flex 
     flex-direction: column
+    
 
     
     &-services
@@ -306,6 +312,155 @@ iframe
             font-size: 16px
             margin: 0 auto
 
+@media (max-width:400px)
+    .nav-logo 
+        font-size: 15px
+
+
+
+@media (max-width:450px)
+    .promo-text
+        font-size: 24px
+        color: red
+        font-weight: bolder
+        width: 200px
+        margin-bottom: 102px
+
+    header
+        border: solid red
+        background-image: url(../img/unsplash_V37iTrYZz2E.png)
+        border: 1px solid white
+        height: 679px
+        width: 400px
+        background-repeat: no-repeat
+        background-position: center
+        z-index: +1
+
+    .promo
+        width: 253px
+        margin-left: 35px
+
+
+    nav
+        width: 400px
+        height: 145px
+    
+    .menu-list
+        display: none
+        
+
+    .main
+        width: 400px
+        height: 1660px
+        &-services
+            font-size: 20px
+            color: black
+            margin-top: 160px
+            
+    .card
+        width: 265px
+        height: 1315px
+        display: flex
+        flex-direction: column
+        bottom: 104px
+        padding-left: 0px
+        margin: auto
+        &-one 
+            width: 265px
+            margin-bottom: 104px
+            height: 365px
+        &-two 
+            width: 265px
+            margin-bottom: 104px
+            height: 365px
+        &-three 
+            width: 265px
+            height: 365px
+
+    .card-button
+        width: 200px
+        height: 60px
+        font-size: 20px
+        margin-top: 10px
+
+    .main-two
+        width: 400px
+        height: 1453px
+        &-ul 
+            width: 184px
+        &-list 
+            font-size: 15px
+            width: 184px
+
+    .main-two-rectangle-26
+        width: 233px
+        margin-left: 43px
+
+
+    .features
+        width: 400px
+        height: 527px
+        &-title 
+            font-size: 15px
+        &-words
+            font-size: 14px
+            display: flex
+            background-color: #FFF9E9
+            width: 270px
+            height: 40px
+            margin: 0 auto
+            align-items: center
+            justify-content: center
+            margin-bottom: 53px
+
+    .form
+        width: 400px
+        height: 713px
+        &-rectangle
+            width: 270px
+            height: 333px
+            margin-top: 67px
+        &-title 
+            font-size: 14px
+            margin-top: 29px
+            margin-bottom: 29px
+            color: black
+
+        &-unput
+            width: 223px
+            height: 37px
+            margin-bottom: 25px
+        &-button 
+            width: 140px
+            height: 40px
+            border-radius: 2px
+
+
+    .map
+        width: 400px
+        height: 800px
+        &-title
+            font-size: 16px
+
+    .footer  
+        width: 400px
+        height: 679px
+        display: flex
+        flex-direction: column
+        &-title
+            font-size: 24px
+        &-title2
+            font-size: 20px
+        &-button-big
+            width: 204px
+            height: 31px
+            font-size: 12px
+        &-contacts
+            width: 400px
+            display: flex
+            flex-direction: column
+        &-contacts-form
+            width: 100px
         
 
 
